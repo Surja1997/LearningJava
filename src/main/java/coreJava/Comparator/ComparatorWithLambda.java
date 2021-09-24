@@ -17,5 +17,6 @@ public class ComparatorWithLambda {
         Collections.sort(intList,((o1, o2) -> o1 %10 >o2 %10 ? 1:-1));
         System.out.println(intList);
 
+
     }
 }

@@ -1,5 +1,8 @@
 package coreJava.Corejava;
 
+import java.util.HashMap;
+import java.util.Map;
+
 class UserDefExcp extends Exception
 {
     public UserDefExcp(String message) {
@@ -23,6 +26,7 @@ public class UserDefinedException {
         {
             System.out.println("Error "+e.getMessage());
         }
+
 
     }
 }

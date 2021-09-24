@@ -19,3 +19,15 @@ public class StaticDemo2 {
 
     }
 }
+class B extends StaticDemo2
+{
+     void helloWorld()
+    {
+        System.out.println("hello world");
+    }
+    StaticDemo2 obj = new B();
+    void calc2()
+    {
+        obj.hello();
+    }
+}
